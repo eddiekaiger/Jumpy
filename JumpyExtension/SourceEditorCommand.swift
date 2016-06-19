@@ -26,9 +26,9 @@ class SourceEditorCommand: NSObject, XCSourceEditorCommand {
         // Determine new line number
         let newLine: Int
         switch jump {
-        case .upShort: newLine = min(startLine - Jump.shortValue, 0)
+        case .upShort: newLine = max(startLine - Jump.shortValue, 0)
         case .downShort: newLine = startLine + Jump.shortValue
-        case .upLong: newLine = min(startLine - Jump.longValue, 0)
+        case .upLong: newLine = max(startLine - Jump.longValue, 0)
         case .downLong: newLine = startLine + Jump.longValue
         }
 
