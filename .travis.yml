@@ -1,5 +1,4 @@
 language: objective-c
 osx_image: xcode8
 xcode_project: Jumpy.xcodeproj
-xcode_scheme: Jumpy
 xcode_sdk: iphonesimulator10.0
