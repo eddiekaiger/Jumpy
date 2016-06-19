@@ -1,2 +1,2 @@
 # Jumpy
-Coming soon to an XCode app near you.
+Coming soon to an Xcode app near you.
