@@ -276,7 +276,7 @@
 		C082E8251D14CC4D00AEE412 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = JumpyExtension/JumpyExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Jumpy/JumpyExtension.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Jumpy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
@@ -291,7 +291,7 @@
 		C082E8261D14CC4D00AEE412 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = JumpyExtension/JumpyExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Jumpy/JumpyExtension.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Jumpy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
