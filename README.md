@@ -1,2 +1,2 @@
 # Jumpy
-Coming soon to an Xcode app near you.
+Jumpy is an Xcode source editor extension for jumping across multiple lines of code. Still a work in progress.
