@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1CE1E41D1CFC5D009D7F44 /* Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CE1E01D1CFC5D009D7F44 /* Jump.swift */; };
+		BA1CE1E51D1CFC5D009D7F44 /* JumpyExtension.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = BA1CE1E11D1CFC5D009D7F44 /* JumpyExtension.entitlements */; };
+		BA1CE1E81D1CFC67009D7F44 /* Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CE1E01D1CFC5D009D7F44 /* Jump.swift */; };
+		BA1CE1E91D1CFC6E009D7F44 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CE1E31D1CFC5D009D7F44 /* SourceEditorExtension.swift */; };
+		BA1CE1EA1D1CFC72009D7F44 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CE1E21D1CFC5D009D7F44 /* SourceEditorCommand.swift */; };
 		C082E8191D14CC4D00AEE412 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C082E8181D14CC4D00AEE412 /* Cocoa.framework */; };
-		C082E81E1D14CC4D00AEE412 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C082E81D1D14CC4D00AEE412 /* SourceEditorExtension.swift */; };
-		C082E8201D14CC4D00AEE412 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C082E81F1D14CC4D00AEE412 /* SourceEditorCommand.swift */; };
 		C082E8241D14CC4D00AEE412 /* JumpyExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C082E8161D14CC4D00AEE412 /* JumpyExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		C082E82A1D14CCA000AEE412 /* Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = C082E8291D14CCA000AEE412 /* Jump.swift */; };
-		C082E82B1D14CCD900AEE412 /* Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = C082E8291D14CCA000AEE412 /* Jump.swift */; };
 		C0D1597A1D14CAF5007F10AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D159791D14CAF5007F10AA /* AppDelegate.swift */; };
 		C0D1597C1D14CAF5007F10AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D1597B1D14CAF5007F10AA /* ViewController.swift */; };
 		C0D1597E1D14CAF5007F10AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0D1597D1D14CAF5007F10AA /* Assets.xcassets */; };
@@ -44,13 +45,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA1CE1E01D1CFC5D009D7F44 /* Jump.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jump.swift; sourceTree = "<group>"; };
+		BA1CE1E11D1CFC5D009D7F44 /* JumpyExtension.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = JumpyExtension.entitlements; sourceTree = "<group>"; };
+		BA1CE1E21D1CFC5D009D7F44 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		BA1CE1E31D1CFC5D009D7F44 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
 		C082E8161D14CC4D00AEE412 /* JumpyExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JumpyExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C082E8181D14CC4D00AEE412 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		C082E81C1D14CC4D00AEE412 /* JumpyExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = JumpyExtension.entitlements; sourceTree = "<group>"; };
-		C082E81D1D14CC4D00AEE412 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
-		C082E81F1D14CC4D00AEE412 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
-		C082E8211D14CC4D00AEE412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C082E8291D14CCA000AEE412 /* Jump.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jump.swift; sourceTree = "<group>"; };
 		C0D159761D14CAF5007F10AA /* Jumpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jumpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D159791D14CAF5007F10AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0D1597B1D14CAF5007F10AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +78,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA6801BB1D1CFB5300DA248F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA1CE1E11D1CFC5D009D7F44 /* JumpyExtension.entitlements */,
+				C0D1597D1D14CAF5007F10AA /* Assets.xcassets */,
+				C0D159821D14CAF5007F10AA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C082E8171D14CC4D00AEE412 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,31 +96,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C082E81A1D14CC4D00AEE412 /* JumpyExtension */ = {
-			isa = PBXGroup;
-			children = (
-				C082E8291D14CCA000AEE412 /* Jump.swift */,
-				C082E81D1D14CC4D00AEE412 /* SourceEditorExtension.swift */,
-				C082E81F1D14CC4D00AEE412 /* SourceEditorCommand.swift */,
-				C082E8211D14CC4D00AEE412 /* Info.plist */,
-				C082E81B1D14CC4D00AEE412 /* Supporting Files */,
-			);
-			path = JumpyExtension;
-			sourceTree = "<group>";
-		};
-		C082E81B1D14CC4D00AEE412 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C082E81C1D14CC4D00AEE412 /* JumpyExtension.entitlements */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		C0D1596D1D14CAF5007F10AA = {
 			isa = PBXGroup;
 			children = (
 				C0D159781D14CAF5007F10AA /* Jumpy */,
-				C082E81A1D14CC4D00AEE412 /* JumpyExtension */,
 				C082E8171D14CC4D00AEE412 /* Frameworks */,
 				C0D159771D14CAF5007F10AA /* Products */,
 			);
@@ -128,11 +117,13 @@
 		C0D159781D14CAF5007F10AA /* Jumpy */ = {
 			isa = PBXGroup;
 			children = (
+				BA1CE1E01D1CFC5D009D7F44 /* Jump.swift */,
+				BA1CE1E21D1CFC5D009D7F44 /* SourceEditorCommand.swift */,
+				BA1CE1E31D1CFC5D009D7F44 /* SourceEditorExtension.swift */,
 				C0D159791D14CAF5007F10AA /* AppDelegate.swift */,
 				C0D1597B1D14CAF5007F10AA /* ViewController.swift */,
-				C0D1597D1D14CAF5007F10AA /* Assets.xcassets */,
+				BA6801BB1D1CFB5300DA248F /* Supporting Files */,
 				C0D1597F1D14CAF5007F10AA /* Main.storyboard */,
-				C0D159821D14CAF5007F10AA /* Info.plist */,
 			);
 			path = Jumpy;
 			sourceTree = "<group>";
@@ -233,6 +224,7 @@
 			files = (
 				C0D1597E1D14CAF5007F10AA /* Assets.xcassets in Resources */,
 				C0D159811D14CAF5007F10AA /* Main.storyboard in Resources */,
+				BA1CE1E51D1CFC5D009D7F44 /* JumpyExtension.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,9 +235,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C082E81E1D14CC4D00AEE412 /* SourceEditorExtension.swift in Sources */,
-				C082E82A1D14CCA000AEE412 /* Jump.swift in Sources */,
-				C082E8201D14CC4D00AEE412 /* SourceEditorCommand.swift in Sources */,
+				BA1CE1E81D1CFC67009D7F44 /* Jump.swift in Sources */,
+				BA1CE1E91D1CFC6E009D7F44 /* SourceEditorExtension.swift in Sources */,
+				BA1CE1EA1D1CFC72009D7F44 /* SourceEditorCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +245,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1CE1E41D1CFC5D009D7F44 /* Jump.swift in Sources */,
 				C0D1597C1D14CAF5007F10AA /* ViewController.swift in Sources */,
-				C082E82B1D14CCD900AEE412 /* Jump.swift in Sources */,
 				C0D1597A1D14CAF5007F10AA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,7 +278,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = JumpyExtension/JumpyExtension.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = JumpyExtension/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Jumpy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eddiekaiger.Jumpy.JumpyExtension;
@@ -301,7 +293,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = JumpyExtension/JumpyExtension.entitlements;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = JumpyExtension/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Jumpy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.eddiekaiger.Jumpy.JumpyExtension;
@@ -403,6 +395,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Jumpy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eddiekaiger.Jumpy;
@@ -417,6 +410,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Jumpy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eddiekaiger.Jumpy;
