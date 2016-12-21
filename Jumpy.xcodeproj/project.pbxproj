@@ -12,6 +12,8 @@
 		BA1CE1E81D1CFC67009D7F44 /* Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CE1E01D1CFC5D009D7F44 /* Jump.swift */; };
 		BA1CE1E91D1CFC6E009D7F44 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CE1E31D1CFC5D009D7F44 /* SourceEditorExtension.swift */; };
 		BA1CE1EA1D1CFC72009D7F44 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CE1E21D1CFC5D009D7F44 /* SourceEditorCommand.swift */; };
+		C0360D981D8E7457004B3F38 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0D159821D14CAF5007F10AA /* Info.plist */; };
+		C0360D991D8E7457004B3F38 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0D159821D14CAF5007F10AA /* Info.plist */; };
 		C082E8191D14CC4D00AEE412 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C082E8181D14CC4D00AEE412 /* Cocoa.framework */; };
 		C082E8241D14CC4D00AEE412 /* JumpyExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C082E8161D14CC4D00AEE412 /* JumpyExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C0D1597A1D14CAF5007F10AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D159791D14CAF5007F10AA /* AppDelegate.swift */; };
@@ -215,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0360D991D8E7457004B3F38 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0360D981D8E7457004B3F38 /* Info.plist in Resources */,
 				C0D1597E1D14CAF5007F10AA /* Assets.xcassets in Resources */,
 				C0D159811D14CAF5007F10AA /* Main.storyboard in Resources */,
 				BA1CE1E51D1CFC5D009D7F44 /* JumpyExtension.entitlements in Resources */,
@@ -277,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Jumpy/JumpyExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Jumpy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
@@ -292,6 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = Jumpy/JumpyExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Jumpy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
@@ -394,6 +400,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Jumpy/Info.plist;
@@ -409,6 +416,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Jumpy/Info.plist;

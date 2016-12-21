@@ -11,7 +11,7 @@ import XcodeKit
 
 class SourceEditorCommand: NSObject, XCSourceEditorCommand {
     
-    func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: (NSError?) -> Void ) -> Void {
+    func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: @escaping (Error?) -> Void ) -> Void {
 
         defer {
             completionHandler(nil)
