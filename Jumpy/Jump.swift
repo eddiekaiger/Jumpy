@@ -14,6 +14,8 @@ enum Jump: String {
     case upLong = "UpLong"
     case downLong = "DownLong"
 
+    static let customizeIdentifier = "customize"
+
     static var shortValue: Int = 10
     static var longValue: Int = 20
 }

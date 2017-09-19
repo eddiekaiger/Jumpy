@@ -14,14 +14,22 @@ private let identifierPrefix = "com.eddiekaiger.Jumpy.JumpyExtension.SourceEdito
 class SourceEditorExtension: NSObject, XCSourceEditorExtension {
 
     var commandDefinitions: [[XCSourceEditorCommandDefinitionKey: Any]] {
-        return [Jump.upShort, .downShort, .upLong, .downLong].map { jump in
+
+        let jumps: [[XCSourceEditorCommandDefinitionKey: Any]] = [Jump.upShort, .downShort, .upLong, .downLong].map { jump in
             var dict = [XCSourceEditorCommandDefinitionKey: String]()
-            dict[XCSourceEditorCommandDefinitionKey.classNameKey] = SourceEditorCommand.className()
+            dict[.classNameKey] = SourceEditorCommand.className()
             dict[.identifierKey] = identifierPrefix + jump.rawValue
             let lines = jump == .upShort || jump == .downShort ? Jump.shortValue : Jump.longValue
             dict[.nameKey] = "Jump \(jump == .upShort || jump == .upLong ? "Up" : "Down") \(lines) Lines"
             return dict as [XCSourceEditorCommandDefinitionKey: Any]
         }
+
+        var customizeItem = [XCSourceEditorCommandDefinitionKey: String]()
+        customizeItem[.classNameKey] = SourceEditorCommand.className()
+        customizeItem[.identifierKey] = identifierPrefix + Jump.customizeIdentifier
+        customizeItem[.nameKey] = "Customize..."
+
+        return jumps /* + [customizeItem]*/ // TODO: Add when ready
     }
 
 }
