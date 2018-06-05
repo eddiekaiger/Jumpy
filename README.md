@@ -16,7 +16,7 @@ tl;dr:
 - Restart your Xcode
 - Add your own custom key bindings for the Jumpy commands! I prefer using **Option+Up/Down** for the short jump (10 lines) and **Control+Option+Up/Down** for the longer jumps (20 lines).
 
-
+<img src="Images/KeyboardShortcuts.png" alt="Keyboard Shortcuts" />
 
 
 
