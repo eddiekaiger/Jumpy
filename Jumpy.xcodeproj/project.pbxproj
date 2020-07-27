@@ -12,8 +12,7 @@
 		BA1CE1E81D1CFC67009D7F44 /* Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CE1E01D1CFC5D009D7F44 /* Jump.swift */; };
 		BA1CE1E91D1CFC6E009D7F44 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CE1E31D1CFC5D009D7F44 /* SourceEditorExtension.swift */; };
 		BA1CE1EA1D1CFC72009D7F44 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1CE1E21D1CFC5D009D7F44 /* SourceEditorCommand.swift */; };
-		BA85DCA724CE247200518402 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA85DCA624CE247200518402 /* XcodeKit.framework */; };
-		BA85DCA824CE247200518402 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA85DCA624CE247200518402 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BA40402424CEB7F6003C7DE3 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA85DCA624CE247200518402 /* XcodeKit.framework */; };
 		C082E8191D14CC4D00AEE412 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C082E8181D14CC4D00AEE412 /* Cocoa.framework */; };
 		C082E8241D14CC4D00AEE412 /* JumpyExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C082E8161D14CC4D00AEE412 /* JumpyExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		C0D1597A1D14CAF5007F10AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D159791D14CAF5007F10AA /* AppDelegate.swift */; };
@@ -39,7 +38,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BA85DCA824CE247200518402 /* XcodeKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,8 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA40402424CEB7F6003C7DE3 /* XcodeKit.framework in Frameworks */,
 				C082E8191D14CC4D00AEE412 /* Cocoa.framework in Frameworks */,
-				BA85DCA724CE247200518402 /* XcodeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +435,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -453,7 +451,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
